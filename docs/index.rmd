@@ -101,12 +101,6 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
-
-The source code is available [on github.com/Mar-celo/CV_Marcelo](https://github.com/Mar-celo/CV_Marcelo).
-
-Last updated on `r Sys.Date()`.
-
 
 
 Main
@@ -153,6 +147,14 @@ Experiência {data-icon=suitcase}
 ```{r}
 CV %<>% print_text_block('industy_experience_aside')
 ```
+
+<br>
+
+Código em [github.com/Mar-celo](https://github.com/Mar-celo/CV_Marcelo).
+
+Atualizado: `r Sys.Date()`.
+
+Feito com **pagedown** e **datadrivencv**.
 :::
 
 ```{r}
