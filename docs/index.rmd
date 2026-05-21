@@ -11,7 +11,7 @@ output:
     self_contained: true
 ---
 
-```{r metathis, echo=FALSE}
+```{r metathis, echo=FALSE, warning=FALSE}
 library(metathis)
 meta() %>%
   meta_name("github-repo" = "Mar-celo/CV_Marcelo") %>% 
